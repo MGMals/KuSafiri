@@ -16,9 +16,9 @@
 lang: en-US
 title: My Samples
 description: 
-show_downloads: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 email:
-description: Cayman is a clean, responsive theme for GitHub Pages
+description: 
 author: Mwaniki
