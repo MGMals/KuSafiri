@@ -14,9 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Samples
+title: Samples Home
 description: 
-show_downloads: true
+show_downloads: false
+layout: page
 google_analytics:
 theme: jekyll-theme-cayman
 email:
