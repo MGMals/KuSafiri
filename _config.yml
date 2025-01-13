@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Samples Home
+title: KuSafiri Samples Home
 description: 
 show_downloads: false
 layout: page
