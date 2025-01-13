@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: 
+description: 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 email:
 description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
