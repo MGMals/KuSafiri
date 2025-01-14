@@ -17,3 +17,159 @@ a:hover {
     text-decoration: none;
     transition: all 0.5s ease 0s;
 }
+
+.inn-page-bg {
+    position: relative;
+    overflow: hidden;
+    background: rgb(243, 243, 243);
+    margin-top: var(--topspac);
+}
+
+.inn-page-bg.com-colo {
+    margin-top: 0;
+}
+
+.inn-page-con-bg {
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(150, 150, 150, 0.4) 0px -2px 7px;
+    padding: 70px 20px 30px;
+}
+
+.inn-page-con-bg input::-webkit-input-placeholder {
+    color: rgb(107, 122, 136);
+}
+
+.head {
+    background: rgb(255, 255, 255);
+    padding: 15px 0;
+    transition: opacity 2s ease-in;
+}
+
+.head_left {
+    padding-left: 0;
+}
+
+.head_right_all {
+    padding-right: 1px;
+}
+
+.head_right ul {
+    padding: 0;
+    margin: 0 auto;
+    float: right;
+}
+
+.head_right ul li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.head_right ul li:first-child a,
+.head_right ul li:nth-child(2) a {
+    padding-right: 7px;
+    color: rgb(94, 100, 105);
+}
+
+.head_right ul li a .fa-facebook {
+    background: rgb(59, 89, 152);
+}
+
+.head_right ul li a .fa-google-plus {
+    background: rgb(221, 75, 57);
+}
+
+.head_right ul li a .fa-twitter {
+    background: rgb(29, 161, 242);
+}
+
+.head_right ul li a .fa-instagram {
+    background: linear-gradient(45deg, #f09433, #bc1888, #e6683c, #cd486b, #fd1d1d);
+}
+
+@media screen and (max-width: 992px) {
+    .head {
+        padding: 10px 0;
+    }
+
+    .head_right ul {
+        float: none;
+        text-align: center;
+    }
+
+    .head_right ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* Social Media Icons */
+.head_right ul li a .fa-twitter,
+.head_right ul li a .fa-linkedin,
+.head_right ul li a .fa-whatsapp {
+    background: rgb(255, 255, 255);
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.head_right ul li a .fa-twitter:hover {
+    background: rgb(85, 172, 238);
+}
+
+.head_right ul li a .fa-linkedin:hover {
+    background: rgb(0, 119, 181);
+}
+
+.head_right ul li a .fa-whatsapp:hover {
+    background: rgb(62, 173, 25);
+}
+
+/* Title Styles */
+.spe-title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.spe-title h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 44px;
+    line-height: 52px;
+    color: rgb(37, 61, 82);
+}
+
+.spe-title h2 span {
+    color: rgb(244, 54, 79);
+    font-weight: 600;
+}
+
+.spe-title p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    color: rgb(136, 136, 136);
+}
+
+/* Navigation */
+.nav > li > a {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(37, 61, 82);
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.nav > li > a:hover {
+    color: rgb(244, 54, 79);
+    text-decoration: underline;
+}
