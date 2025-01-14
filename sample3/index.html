@@ -1,494 +1,1716 @@
 
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <title>Crafto - The Multipurpose HTML5 Template</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons  -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.min.css"/>
-        <link rel="stylesheet" href="css/responsive.min.css"/>
-        <link rel="stylesheet" href="demos/travel-agency/travel-agency.css" />
-    </head>
-    <body data-mobile-nav-style="classic">  
-        <!-- start header -->
-        <header class="header-with-topbar">
-            <div class="header-top-bar top-bar-light bg-white md-border-bottom border-color-transparent-dark-very-light disable-fixed">
-                <div class="container-fluid">
-                    <div class="row h-45px align-items-center m-0">
-                        <div class="col-xl-6 col-lg-8 justify-content-center justify-content-lg-start">
-                            <div class="fs-15 text-dark-gray">We have a selection of over 50 tour programs! <a href="demo-travel-agency-destinations.html" class="text-base-color fw-500 text-decoration-line-bottom">Popular Destinations</a></div>
-                        </div>
-                        <div class="col-xl-6 col-lg-4 text-end d-none d-lg-flex">
-                            <a href="tel:02228899900" class="widget fs-15 text-dark-gray text-dark-gray-hover"><i class="feather icon-feather-phone-call text-base-color"></i> 0222 8899900</a>
-                            <div class="widget fs-15 ms-30px text-dark-gray d-none d-xl-inline-block"><i class="feather icon-feather-map-pin text-base-color"></i> Broadway, 24th Floor, San Francisco</div> 
-                        </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Travel - Tour Travel</title>
+    <!--== META TAGS ==-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="images/fav.ico">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:400,500,700" rel="stylesheet">
+    <!-- FONT-AWESOME ICON CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--== ALL CSS FILES ==-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mob.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <div class="pop-bg"></div>
+
+    <!-- MOBILE MENU -->
+    <section>
+        <div class="ed-mob-menu">
+            <div class="ed-mob-menu-con">
+                <div class="ed-mm-left">
+                    <div class="wed-logo">
+                        <a href="main.html"><img src="images/logo.png" alt="" />
+						</a>
                     </div>
                 </div>
-            </div>
-            <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-transparent bg-transparent border-bottom border-color-transparent-white-light disable-fixed">
-                <div class="container-fluid">
-                    <div class="col-auto col-lg-2 me-auto">
-                        <a class="navbar-brand" href="demo-travel-agency.html">
-                            <img src="images/demo-travel-agency-logo-white.png" data-at2x="images/demo-travel-agency-logo-white@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-travel-agency-logo-white.png" data-at2x="images/demo-travel-agency-logo-white@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-travel-agency-logo-black.png" data-at2x="images/demo-travel-agency-logo-black@2x.png" alt="" class="mobile-logo"> 
-                        </a>
-                    </div>
-                    <div class="col-auto col-lg-8 menu-order position-static">
-                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-                            <ul class="navbar-nav alt-font text-uppercase"> 
-                                <li class="nav-item"><a href="demo-travel-agency.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-travel-agency-about.html" class="nav-link">About</a></li>
-                                <li class="nav-item dropdown dropdown-with-icon">
-                                    <a href="demo-travel-agency-destinations.html" class="nav-link">Destinations</a>
-                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/demo-travel-agency-home-07.jpg" alt="">
-                                                <div class="submenu-icon-content">
-                                                    India
-                                                    <p>42 Destinations</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/demo-travel-agency-home-08.jpg" alt="">
-                                                <div class="submenu-icon-content">
-                                                    Poland
-                                                    <p>36 Destinations</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/demo-travel-agency-home-09.jpg" alt="">
-                                                <div class="submenu-icon-content">
-                                                    Mexico
-                                                    <p>22 Destinations</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="images/demo-travel-agency-home-13.jpg" alt="">
-                                                <div class="submenu-icon-content">
-                                                    Maldives
-                                                    <p>28 Destinations</p>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="btn btn-dark-gray btn-round-edge btn-box-shadow align-self-center text-center text-white">tour packages</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="demo-travel-agency-tours.html" class="nav-link">Tours</a></li>
-                                <li class="nav-item"><a href="demo-travel-agency-reviews.html" class="nav-link">Reviews</a></li>
-                                <li class="nav-item"><a href="demo-travel-agency-blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="demo-travel-agency-contact.html" class="nav-link">Contact</a></li>
+                <div class="ed-mm-right">
+                    <div class="ed-mm-menu">
+                        <a href="#!" class="ed-micon"><i class="fa fa-bars"></i></a>
+                        <div class="ed-mm-inn">
+                            <a href="#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
+                            <h4>Home pages</h4>
+                            <ul>
+                                <li><a href="booking-all.html">Home page 1</a></li>
+                                <li><a href="booking-all.html">Home page 2</a></li>
+                                <li><a href="booking-tour-package.html">Home page 3</a></li>
+                                <li><a href="booking-hotel.html">Home page 4</a></li>
+                                <li><a href="booking-car-rentals.html">Home page 5</a></li>
+                                <li><a href="booking-flight.html">Home page 6</a></li>
+                                <li><a href="booking-slider.html">Home page 7</a></li>
+                            </ul>
+                            <h4>Tour Packages</h4>
+                            <ul>
+                                <li><a href="all-package.html">All Package</a></li><li><a href="family-package.html">Family Package</a></li>
+                                <li><a href="honeymoon-package.html">Honeymoon Package</a></li>
+                                <li><a href="group-package.html">Group Package</a></li>
+                                <li><a href="weekend-package.html">WeekEnd Package</a></li>
+                                <li><a href="regular-package.html">Regular Package</a></li>
+                                <li><a href="custom-package.html">Custom Package</a></li>
+                            </ul>
+                            <h4>Sighe Seeings Pages</h4>
+                            <ul>
+                                <li><a href="destinations.html">Seight Seeing 1</a></li>
+                                <li><a href="places-1.html">Seight Seeing 2</a></li>
+                                <li><a href="places-2.html">Seight Seeing 3</a></li>
+                            </ul>
+                            <h4>User Dashboard</h4>
+                            <ul>
+                                <li><a href="dashboard.html">My Bookings</a></li>
+                                <li><a href="db-my-profile.html">My Profile</a></li>
+                                <li><a href="db-my-profile-edit.html">My Profile edit</a></li>
+                                <li><a href="db-travel-booking.html">Tour Packages</a></li>
+                                <li><a href="db-hotel-booking.html">Hotel Bookings</a></li>
+                                <li><a href="db-event-booking.html">Event bookings</a></li>
+                                <li><a href="db-payment.html">Make Payment</a></li>
+                                <li><a href="db-refund.html">Cancel Bookings</a></li>
+                                <li><a href="db-all-payment.html">Prient E-Tickets</a></li>
+                                <li><a href="db-event-details.html">Event booking details</a></li>
+                                <li><a href="db-hotel-details.html">Hotel booking details</a></li>
+                                <li><a href="db-travel-details.html">Travel booking details</a></li>
+                            </ul>
+                            <h4>Other pages:1</h4>
+                            <ul>
+                                <li><a href="tour-details.html">Travel details</a></li>
+                                <li><a href="hotel-details.html">Hotel details</a></li>
+                                <li><a href="all-package.html">All package</a></li><li><a href="hotels-list.html">All hotels</a></li>
+                                <li><a href="booking.html">Booking page</a></li>
+                            </ul>
+                            <h4 class="ed-dr-men-mar-top">User login pages</h4>
+                            <ul>
+                                <li><a href="register.html">Register</a></li>
+                                <li><a href="login.html">Login and Sign in</a></li>
+                                <li><a href="forgot-pass.html">Forgot pass</a></li>
+                            </ul>
+                            <h4>Other pages:2</h4>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="tips.html">Tips Before Travel</a></li>
+                                <li><a href="price-list.html">Price List</a></li>
+                                <li><a href="discount.html">Discount</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="sitemap.html">Site map</a></li>
+                                <li><a href="404.html">404 Page</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto col-lg-2 text-end">
-                        <div class="header-icon">
-                            <div class="header-search-icon icon">
-                                <a href="#" class="search-form-icon header-search-form"><i class="feather icon-feather-search"></i></a> 
-                                <div class="search-form-wrapper">
-                                    <button title="Close" type="button" class="search-close alt-font">×</button>
-                                    <form id="search-form" role="search" method="get" class="search-form text-left" action="search-result.html">
-                                        <div class="search-form-box">
-                                            <h2 class="text-dark-gray text-center mb-5 ls-minus-2px fw-600">What are you looking for?</h2>
-                                            <input class="search-input" id="search-form-input5e219ef164995" placeholder="Enter your keywords..." name="s" value="" type="text" autocomplete="off">
-                                            <button type="submit" class="search-button">
-                                                <i class="feather icon-feather-search" aria-hidden="true"></i> 
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="header-push-button icon">
-                                <div class="push-button">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span> 
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </nav>
-            <div class="push-menu push-menu-style-1 p-35px bg-white">
-                <span class="close-menu text-white bg-dark-gray"><i class="fa-solid fa-xmark"></i></span>
-                <div class="text-center push-menu-wrapper text-dark-gray" data-scroll-options='{ "theme": "dark" }'>
-                    <div class="w-100">
-                        <img src="images/demo-travel-agency-logo-black.png" data-at2x="images/demo-travel-agency-logo-black@2x.png" class="mb-20" alt="" />
-                        <div class="d-inline-block align-middle bg-very-light-gray fw-600 text-dark-gray text-uppercase border-radius-22px ps-25px pe-25px fs-13 mb-15px">Explore the world</div>
-                        <h3 class="fw-600 mb-0 alt-font ls-minus-1px lh-38">World's leading travel agency</h3>
-                    </div>
-                    <div class="row align-items-center justify-content-center mt-20 mb-20 row-cols-3 row-cols-md-3 gutter-very-small row-cols-sm-3 instagram-follow-api position-relative">
-                        <div class="col instafeed-grid mb-10px">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-01.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>  
-                        <div class="col instafeed-grid mb-10px">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-02.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>
-                        <div class="col instafeed-grid mb-10px">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-03.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>
-                        <div class="col instafeed-grid">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-04.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>
-                        <div class="col instafeed-grid">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-05.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>
-                        <div class="col instafeed-grid">
-                            <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-06.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                        </div>  
-                    </div>
-                    <div class="col-12 text-center newsletter-style-02 position-relative mb-20"> 
-                        <span class="fs-18 w-80 mx-auto text-extra-dark-gray lh-26 d-inline-block mb-25px">Get latest update for our trusted applications</span>
-                        <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
-                            <input class="border-radius-5px bg-white w-100 form-control required" type="email" name="email" placeholder="Enter your email">
-                            <input type="hidden" name="redirect" value="">
-                            <button class="btn submit" aria-label="submit"><i class="icon feather icon-feather-mail icon-small"></i></button>
-                            <div class="form-results border-radius-4px pt-10px pb-10px ps-15px pe-15px fs-14 w-100 text-center position-absolute lh-24 d-none"></div>
-                        </form>
-                    </div>
-                    <div class="col-12 text-center elements-social social-icon-style-01">
-                        <ul class="small-icon dark mb-0">
-                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li>
-                            <li><a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
-        </header>
-        <!-- end header -->
-        <!-- start page title -->
-        <section class="page-title-button-style cover-background position-relative ipad-top-space-margin top-space-padding md-pt-20px" style="background-image: url('images/demo-travel-agency-tours-title-bg.jpg')">
-            <div class="opacity-light bg-bay-of-many-blue"></div>
+        </div>
+    </section>
+    <!--HEADER SECTION-->
+    <section>
+        <!-- TOP BAR -->
+        <div class="ed-top">
             <div class="container">
-                <div class="row align-items-center justify-content-center extra-small-screen">
-                    <div class="col-lg-6 col-md-8 position-relative text-center page-title-extra-large" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="text-uppercase mb-10px alt-font text-white fw-500 bg-dark-gray border-radius-4px">The perfect trip</h2>
-                        <h1 class="mb-0 text-white alt-font ls-minus-2px text-uppercase fw-600 text-shadow-double-large">Special tours</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end page title -->
-        <!-- start section -->
-        <section class="bg-very-light-gray position-relative">
-            <div class="h-110px position-absolute w-100 h-100 left-0px right-0px top-minus-70px" style="background-image:url('images/demo-travel-agency-home-bg-02.png')"></div>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-xl-5 row-cols-md-5 row-cols-sm-3 justify-content-center align-items-center" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-mb-40px xs-border-end-0">
-                        <img src="images/demo-travel-agency-icon-01.png" class="mb-10px w-70px d-block mx-auto" alt="" />
-                        <span class="alt-font fs-19 fw-600 text-dark-gray text-uppercase ls-minus-05px">Adventure</span>
-                    </div>
-                    <div class="col text-center border-end border-color-transparent-dark-very-light sm-mb-40px xs-border-end-0">
-                        <img src="images/demo-travel-agency-icon-02.png" class="mb-10px w-70px d-block mx-auto" alt="" />
-                        <span class="alt-font fs-19 fw-600 text-dark-gray text-uppercase ls-minus-05px">Friendly</span>
-                    </div>
-                    <div class="col text-center border-end sm-border-end-0 border-color-transparent-dark-very-light sm-mb-40px">
-                        <img src="images/demo-travel-agency-icon-03.png" class="mb-10px w-70px d-block mx-auto" alt="" />
-                        <span class="alt-font fs-19 fw-600 text-dark-gray text-uppercase ls-minus-05px sm-mb-40px xs-border-end-0">Popular</span>
-                    </div>
-                    <div class="col text-center border-end border-color-transparent-dark-very-light xs-mb-40px xs-border-end-0">
-                        <img src="images/demo-travel-agency-icon-04.png" class="mb-10px w-70px d-block mx-auto" alt="" />
-                        <span class="alt-font fs-19 fw-600 text-dark-gray text-uppercase ls-minus-05px">Beaches</span>
-                    </div>
-                    <div class="col text-center">
-                        <img src="images/demo-travel-agency-icon-05.png" class="mb-10px w-70px d-block mx-auto" alt="" />
-                        <span class="alt-font fs-19 fw-600 text-dark-gray text-uppercase ls-minus-05px">Honeymoon</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
-        <!-- start section -->
-        <section class="pt-0 bg-very-light-gray overlap-height">
-            <div class="container overlap-gap-section">
-                <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-md-2 justify-content-center" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                    <!-- start content carousal item -->
-                    <div class="col mb-30px">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-01.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">10 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1299<span class="ms-5px position-relative text-red fs-22 fw-500">$1500<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">Animal national park</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin me-5px"></i>Dubai</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">12 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item -->
-                    <!-- start content carousal item -->
-                    <div class="col mb-30px">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-02.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">15 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1599<span class="ms-5px position-relative text-red fs-22 fw-500">$1800<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">Honeymoon packages</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin fs-17 me-5px"></i>France</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">20 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item -->
-                    <!-- start content carousal item -->
-                    <div class="col mb-30px">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-03.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">05 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1099<span class="ms-5px position-relative text-red fs-22 fw-500">$1300<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">South america icons</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin fs-17 me-5px"></i>America</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">24 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item -->
-                    <!-- start content carousal item -->
-                    <div class="col sm-mb-30px">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-04.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">12 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1299<span class="ms-5px position-relative text-red fs-22 fw-500">$1500<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">Destination wedding</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin fs-17 me-5px"></i>Italy</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">18 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item --> 
-                    <!-- start content carousal item -->
-                    <div class="col sm-mb-30px">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-05.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">05 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1499<span class="ms-5px position-relative text-red fs-22 fw-500">$1600<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">Discover depth of beach</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin fs-17 me-5px"></i>Maldives</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">18 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item --> 
-                    <!-- start content carousal item -->
-                    <div class="col">
-                        <div class="overflow-hidden border-radius-6px box-shadow-large">
-                            <div class="image">
-                                <a href="demo-travel-agency-tour-details-page.html">
-                                    <img class="w-100" src="images/demo-travel-agency-tours-06.jpg" alt="">
-                                </a>
-                            </div> 
-                            <div class="bg-white p-40px md-p-30px position-relative">
-                                <div class="bg-base-color ps-15px pe-15px fs-14 text-uppercase fw-500 d-inline-block text-white position-absolute right-0px top-0px">12 days</div>
-                                <div class="fs-24 fw-700 text-dark-gray"><span class="text-uppercase d-block fs-14 lh-18 fw-500 text-medium-gray">Just</span>$1099<span class="ms-5px position-relative text-red fs-22 fw-500">$1400<span class="w-100 h-1px position-absolute left-0px top-50 bg-red"></span></span></div>
-                                <a href="demo-travel-agency-tour-details-page.html" class="mt-10px fs-18 text-dark-gray fw-600 d-block">Cuba adventures</a>
-                                <p class="m-0 lh-30">Lorem ipsum has been industry standard dummy text ever...</p>
-                                <div class="d-flex align-items-center pt-20px mt-25px border-top border-color-extra-medium-gray">
-                                    <a href="#" class="fw-600 text-dark-gray me-auto"><i class="feather icon-feather-map-pin fs-17 me-5px"></i>Cuba</a>
-                                    <div class="review-star-icon me-5px">
-                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    </div>
-                                    <span class="fs-14 fw-500 text-uppercase d-inline-block">30 Reviews</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end content carousal item --> 
-                </div>
                 <div class="row">
-                    <div class="col-12 mt-6 d-flex justify-content-center">
-                        <!-- start pagination -->
-                        <ul class="pagination pagination-style-01 fs-13 mb-0 fw-500" data-anime='{ "translate": [0, 0], "opacity": [0,1], "duration": 600, "delay": 50, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                            <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-left fs-18 text-dark-gray d-xs-none"></i></a></li>
-                            <li class="page-item"><a class="page-link" href="#">01</a></li>
-                            <li class="page-item active"><a class="page-link" href="#">02</a></li>
-                            <li class="page-item"><a class="page-link" href="#">03</a></li>
-                            <li class="page-item"><a class="page-link" href="#">04</a></li>
-                            <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-right fs-18 text-dark-gray d-xs-none"></i></a></li>
-                        </ul>
-                        <!-- end pagination -->
-                    </div> 
-                </div>
-            </div>
-        </section>
-        <!-- end section -->        
-        <!-- start footer -->
-        <footer class="bg-light-gray pb-40px">
-            <div class="container">
-                <div class="row mb-2 md-mb-4 overlap-section" data-anime='{ "el": "childs", "translateY": [-15, 0], "scale": [0.5, 1], "opacity": [0,1], "duration": 800, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="col-12 text-center">
-                        <img class="rounded-circle" src="images/demo-travel-agency-home-16.png" alt="" />
+                    <div class="col-md-12">
+                        <div class="ed-com-t1-left">
+                            <ul>
+                                <li><a href="#">Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</a>
+                                </li>
+                                <li><a href="#">Phone: +101-1231-1231</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-right">
+                            <ul>
+                                <li><span class="sear-pop pop-ini" data-pop="pop-search"><i class="fa fa-search aria-hidden="true"></i></span></li>
+                                <li><a href="login.html" class="top-sign">Sign In</a>
+                                </li>
+                                <li><a href="register.html" class="top-regi">Sign Up</a>
+                                </li>
+                                <li><a href="dashboard.html" class="top-prof">Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-social">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <!-- start subscribe item -->
-                <div class="row justify-content-center mb-6 md-mb-8 xs-mb-40px">
-                    <div class="col-xl-6 col-lg-8 col-md-10 text-center last-paragraph-no-margin">
-                        <h2 class="text-dark-gray alt-font fw-600 mb-40px mx-auto w-90 ls-minus-2px">Get the amazing travel offers into your inbox!</h2>
-                        <div class="d-inline-block w-100 newsletter-style-03 position-relative mb-30px">
-                            <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
-                                <input class="input-large bg-white border-color-transparent w-100 border-radius-100px box-shadow-extra-large form-control required" type="email" name="email" placeholder="Enter your email address" />
-                                <input type="hidden" name="redirect" value="">
-                                <button class="btn btn-large text-dark-gray ls-0px left-icon submit fw-600" aria-label="submit"><i class="icon feather icon-feather-mail icon-small text-base-color"></i><span>Subscribe</span></button>
-                                <div class="form-results border-radius-100px pt-10px pb-10px ps-15px pe-15px fs-16 mt-10px w-100 z-index-1 text-center position-absolute d-none"></div>
+            </div>
+        </div>
+
+        <!-- LOGO AND MENU SECTION -->
+        <div class="top-logo" data-spy="affix" data-offset-top="250">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wed-logo">
+                            <a href="main.html"><img src="images/logo.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="main.html">Home</a>
+                                </li>
+                                <li class="about-menu">
+                                    <a href="all-package.html" class="mm-arr">Packages</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="about-mm m-menu">
+                                            <div class="m-menu-inn">
+                                                <div class="mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay menu-about" href="all-package.html">
+                                                            <img src="images/sight/5.jpg" alt="">
+                                                            <span>Popular Package</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="mm1-com mm1-s2">
+                                                    <p>Want to change the world? At Berkeley we’re doing just that. When you join the Golden Bear community, you’re part of an institution that shifts the global conversation every single day.</p>
+                                                    <a href="all-package.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm1-com mm1-s3">
+                                                    <ul>
+                                                        <li><a href="booking-all.html">All Booking</a></li>
+                                                        <li><a href="booking-tour-package.html">Tour Package Booking</a></li>
+                                                        <li><a href="booking-hotel.html">Hotel Booking</a></li>
+                                                        <li><a href="booking-car-rentals.html">Car Rentals Booking</a></li>
+                                                        <li><a href="booking-flight.html">Flight Booking</a></li>
+                                                        <li><a href="booking-slider.html">Slider Booking</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="mm1-com mm1-s4">
+                                                    <ul>
+                                                        <li><a href="all-package.html">All Package</a></li><li><a href="family-package.html">Family Package</a></li>
+                                                        <li><a href="honeymoon-package.html">Honeymoon Package</a></li>
+                                                        <li><a href="group-package.html">Group Package</a></li>
+                                                        <li><a href="weekend-package.html">WeekEnd Package</a></li>
+                                                        <li><a href="regular-package.html">Regular Package</a></li>
+                                                        <li><a href="custom-package.html">Custom Package</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="admi-menu">
+                                    <a href="#" class="mm-arr">Seight Seeing</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="admi-mm m-menu">
+                                            <div class="m-menu-inn">
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="destinations.html">
+                                                            <img src="images/sight/1.jpg" alt="">
+                                                            <span>Seight Seeing - 1</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="destinations.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="places-1.html">
+                                                            <img src="images/sight/2.jpg" alt="">
+                                                            <span>Seight Seeing - 2</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="places-1.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s1">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="places-2.html">
+                                                            <img src="images/sight/3.jpg" alt="">
+                                                            <span>Seight Seeing - 3</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="places-2.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+                                                <div class="mm2-com mm1-com mm1-s4">
+                                                    <div class="ed-course-in">
+                                                        <a class="course-overlay" href="places-3.html">
+                                                            <img src="images/sight/4.jpg" alt="">
+                                                            <span>Seight Seeing - 4</span>
+                                                        </a>
+                                                    </div>
+                                                    <p>Donec lacus libero, rutrum ac sollicitudin sed, mattis non eros. Vestibulum congue nec eros quis lacinia. Mauris non tincidunt lectus. Nulla mollis, orci vitae accumsan rhoncus.</p>
+                                                    <a href="places-3.html" class="mm-r-m-btn">Read more</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="hotels-list.html">Hotels</a></li>
+                                <!--<li><a class='dropdown-button ed-sub-menu' href='#' data-activates='dropdown1'>Courses</a></li>-->
+                                <li class="cour-menu">
+                                    <a href="#!" class="mm-arr">All Pages</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="cour-mm m-menu">
+                                            <div class="m-menu-inn">
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+                                                    <h4>Home pages</h4>
+                                                    <ul>
+                                                        <li><a href="booking-all.html">Home page 1</a></li>
+                                                        <li><a href="booking-all.html">Home page 2</a></li>
+                                                        <li><a href="booking-tour-package.html">Home page 3</a></li>
+                                                        <li><a href="booking-hotel.html">Home page 4</a></li>
+                                                        <li><a href="booking-car-rentals.html">Home page 5</a></li>
+                                                        <li><a href="booking-flight.html">Home page 6</a></li>
+                                                        <li><a href="booking-slider.html">Home page 7</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+                                                    <h4>Tour Packages</h4>
+                                                    <ul>
+                                                        <li><a href="all-package.html">All Package</a></li><li><a href="family-package.html">Family Package</a></li>
+                                                        <li><a href="honeymoon-package.html">Honeymoon Package</a></li>
+                                                        <li><a href="group-package.html">Group Package</a></li>
+                                                        <li><a href="weekend-package.html">WeekEnd Package</a></li>
+                                                        <li><a href="regular-package.html">Regular Package</a></li>
+                                                        <li><a href="custom-package.html">Custom Package</a></li>
+                                                    </ul>
+                                                    <h4 class="ed-dr-men-mar-top">Sighe Seeings Pages</h4>
+                                                    <ul>
+                                                        <li><a href="destinations.html">Seight Seeing 1</a></li>
+                                                        <li><a href="places-1.html">Seight Seeing 2</a></li>
+                                                        <li><a href="places-2.html">Seight Seeing 3</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+                                                    <h4>User Dashboard</h4>
+                                                    <ul>
+                                                        <li><a href="dashboard.html">My Bookings</a></li>
+                                                        <li><a href="db-my-profile.html">My Profile</a></li>
+                                                        <li><a href="db-my-profile-edit.html">My Profile edit</a></li>
+                                                        <li><a href="db-travel-booking.html">Tour Packages</a></li>
+                                                        <li><a href="db-hotel-booking.html">Hotel Bookings</a></li>
+                                                        <li><a href="db-event-booking.html">Event bookings</a></li>
+                                                        <li><a href="db-payment.html">Make Payment</a></li>
+                                                        <li><a href="db-refund.html">Cancel Bookings</a></li>
+                                                        <li><a href="db-all-payment.html">Prient E-Tickets</a></li>
+                                                        <li><a href="db-event-details.html">Event booking details</a></li>
+                                                        <li><a href="db-hotel-details.html">Hotel booking details</a></li>
+                                                        <li><a href="db-travel-details.html">Travel booking details</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="mm1-com mm1-cour-com mm1-s3">
+                                                    <h4>Other pages:1</h4>
+                                                    <ul>
+                                                        <li><a href="tour-details.html">Travel details</a></li>
+                                                        <li><a href="hotel-details.html">Hotel details</a></li>
+                                                        <li><a href="all-package.html">All package</a></li><li><a href="hotels-list.html">All hotels</a></li>
+                                                        <li><a href="booking.html">Booking page</a></li>
+                                                    </ul>
+                                                    <h4 class="ed-dr-men-mar-top">User login pages</h4>
+                                                    <ul>
+                                                        <li><a href="register.html">Register</a></li>
+                                                        <li><a href="login.html">Login and Sign in</a></li>
+                                                        <li><a href="forgot-pass.html">Forgot pass</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="mm1-com mm1-cour-com mm1-s4">
+                                                    <h4>Other pages:2</h4>
+                                                    <ul>
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                                        <li><a href="events.html">Events</a></li>
+                                                        <li><a href="blog.html">Blog</a></li>
+                                                        <li><a href="tips.html">Tips Before Travel</a></li>
+                                                        <li><a href="price-list.html">Price List</a></li>
+                                                        <li><a href="discount.html">Discount</a></li>
+                                                        <li><a href="faq.html">FAQ</a></li>
+                                                        <li><a href="sitemap.html">Site map</a></li>
+                                                        <li><a href="404.html">404 Page</a></li>
+                                                        <li><a href="contact.html">Contact Us</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="dashboard.html">Profile</a>
+                                </li>
+                                <li><a href="contact.html">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="al">
+                            <div class="head-pro pop-ini" data-pop="pop-advi">
+                                <img src="images/1.jpg" alt="" loading="lazy">
+                                <div>
+                                    <b>Advisor</b>
+                                    <h4>Ashley emyy</h4>
+                                </div>
+                                <span class="fclick"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- HEADER & MENU -->
+    <div class="menu-pop menu-pop2 pop pop-advi">
+        <span class="menu-pop-clo pop-clo"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <div class="inn">
+            <div class="menu-pop-help">
+                <h4>Support Team</h4>
+                <div class="user-pro">
+                    <img src="images/1.jpg" alt="" loading="lazy">
+                </div>
+                <div class="user-bio">
+                    <h5>Ashley emyy</h5>
+                    <span>Senior trip advisor</span>
+                    <a href="enquiry.html" class="btn btn-primary btn-sm">Ask your doubts</a>
+                </div>
+            </div>
+            <div class="menu-pop-soci">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <ul class="menu-pop-info">
+                <li><a href="#!"><i class="fa fa-phone" aria-hidden="true"></i>+92 (8800) 68 - 8960</a></li>
+                <li><a href="#!"><i class="fa fa-whatsapp" aria-hidden="true"></i>+92 (8800) 68 - 8960</a></li>
+                <li><a href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i>help@company.com</a></li>
+                <li><a href="#!"><i class="fa fa-map-marker" aria-hidden="true"></i>3812 Lena Lane City Jackson Mississippi</a></li>
+            </ul>
+
+            <div class="late-news">
+                <h4>Latest news</h4>
+                <ul>
+                    <li>
+                        <div class="rel-pro-img">
+                            <img src="images/rooms/01.jpg" alt="" loading="lazy">
+                        </div>
+                        <div class="rel-pro-con">
+                            <h5>Long established fact that a reader distracted</h5>
+                            <span class="ic-date">12 Dec 2023</span>
+                        </div>
+                        <a href="hotel-detail.html" class="fclick"></a>
+                    </li>
+                    <li>
+                        <div class="rel-pro-img">
+                            <img src="images/rooms/02.jpeg" alt="" loading="lazy">
+                        </div>
+                        <div class="rel-pro-con">
+                            <h5>Long established fact that a reader distracted</h5>
+                            <span class="ic-date">12 Dec 2023</span>
+                        </div>
+                        <a href="hotel-detail.html" class="fclick"></a>
+                    </li>
+                    <li>
+                        <div class="rel-pro-img">
+                            <img src="images/rooms/04.jpeg" alt="" loading="lazy">
+                        </div>
+                        <div class="rel-pro-con">
+                            <h5>Long established fact that a reader distracted</h5>
+                            <span class="ic-date">12 Dec 2023</span>
+                        </div>
+                        <a href="hotel-detail.html" class="fclick"></a>
+                    </li>
+                    <li>
+                        <div class="rel-pro-img">
+                            <img src="images/rooms/05.jpeg" alt="" loading="lazy">
+                        </div>
+                        <div class="rel-pro-con">
+                            <h5>Long established fact that a reader distracted</h5>
+                            <span class="ic-date">12 Dec 2023</span>
+                        </div>
+                        <a href="hotel-detail.html" class="fclick"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- HELP BOX -->
+            <div class="prof-rhs-help">
+                <div class="inn">
+                    <h3>Tell us your Needs</h3>
+                    <p>Tell us what kind of service you are looking for.</p>
+                    <a href="register.html">Register for free</a>
+                </div>
+            </div>
+            <!-- END HELP BOX -->
+        </div>
+    </div>
+    <!-- END HEADER & MENU -->
+    </section>
+
+
+    <!--END HEADER SECTION-->
+	<!-- TOP SEARCH BOX -->
+	<section>
+        <div class="search-top pop pop-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ban-search form-select">
+                            <form>
+                                <ul>
+                                    <li class="sr-look">
+                                        <div class="form-group">
+                                            <label>Your destination</label>
+                                            <select class="chosen-select">
+                                                <option>Your destination</option>
+                                                <option>Any location</option>
+                                                <option>Chennai</option>
+                                                <option>New york</option>
+                                                <option>Perth</option>
+                                                <option>London</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li class="sr-gue">
+                                        <div class="form-group">
+                                            <label>Package</label>
+                                            <select class="chosen-select">
+                                                <option>Package</option>
+                                                <option>Family Package</option>
+                                                <option>Honeymoon Package</option>
+                                                <option>Group Package</option>
+                                                <option>WeekEnd Package</option>
+                                                <option>Regular Package</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li class="sr-date">
+                                        <div class="form-group">
+                                            <label>Check in</label>
+                                            <input type="text" class="form-control datepicker" name="from" placeholder="Check in">
+                                        </div>
+                                    </li>
+                                    <li class="sr-date">
+                                        <div class="form-group">
+                                            <label>Check out</label>
+                                            <input type="text" class="form-control datepicker" name="to" placeholder="Check out">
+                                        </div>
+                                    </li>
+                                    <li class="sr-btn">
+                                        <input type="submit" value="Search">
+                                    </li>
+                                </ul>
                             </form>
                         </div>
-                        <p class="fs-16 lh-normal">We are committed to protecting your <a href="#" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover">privacy policy.</a></p>
-                    </div>
-                </div>
-                <!-- end subscribe item -->
-                <!-- start instagram -->
-                <div class="row align-items-center justify-content-center mb-40px g-0 row-cols-3 row-cols-md-6 row-cols-sm-3 instagram-follow-api position-relative">
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-01.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div>  
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-02.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div>
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-03.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div>
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-04.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div>
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-05.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div>
-                    <div class="col instafeed-grid">
-                        <figure class="border-radius-0px"><a href="https://www.instagram.com" target="_blank"><img src="images/demo-travel-agency-instagram-06.jpg" class="insta-image" alt=""><span class="insta-icon"><i class="fa-brands fa-instagram"></i></span></a></figure>
-                    </div> 
-                    <div class="absolute-middle-center z-index-1 w-auto">
-                        <a href="https://www.instagram.com" target="_blank" class="btn btn-medium btn-switch-text btn-white btn-round-edge fw-600 ls-0px left-icon btn-box-shadow instagram-button">
-                            <span>
-                                <span><i class="fa-brands fa-instagram text-base-color fs-20"></i></span>
-                                <span class="btn-double-text" data-text="crafto instagram">crafto instagram</span> 
-                            </span>
-                        </a>
-                    </div>
-                </div>
-                <!-- end instagram -->
-                <div class="row align-items-center">
-                    <div class="col-xl-3 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1"> 
-                        <p>&COPY; Copyright 2024 <a href="index.html" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">Crafto</a></p>
-                    </div>
-                    <div class="col-xl-6 text-center lg-mt-10px sm-mt-0 sm-mb-15px order-1 order-xl-2 order-md-3"> 
-                        <ul class="footer-navbar"> 
-                            <li class="nav-item"><a href="demo-travel-agency-about.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="demo-travel-agency-destinations.html" class="nav-link">Destinations</a></li>
-                            <li class="nav-item"><a href="demo-travel-agency-tours.html" class="nav-link">Tours</a></li>
-                            <li class="nav-item"><a href="demo-travel-agency-reviews.html" class="nav-link">Reviews</a></li>
-                            <li class="nav-item"><a href="demo-travel-agency-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="demo-travel-agency-contact.html" class="nav-link">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-3 col-sm-6 position-relative text-center text-sm-end elements-social social-text-style-08 order-2 order-xl-3 xs-mb-10px"> 
-                        <ul class="small-icon dark">
-                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li>
-                            <li><a class="twitter" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>  
-                            <li><a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
-                        </ul>  
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll progress -->
-        <div class="scroll-progress d-none d-xxl-block">
-            <a href="#" class="scroll-top" aria-label="scroll">
-                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
-            </a>
+			<span class="menu-pop-clo pop-clo"><i class="fa fa-times" aria-hidden="true"></i></span>
         </div>
-        <!-- end scroll progress -->
-        <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+		<!-- END TOP SEARCH BOX -->
+    </section>
+    <!--END HEADER SECTION-->
+		
+	
+	<!--====== HOTELS LIST ==========-->
+	<section class="hot-page2-alp hot-page2-pa-sp-top">
+		<div class="container">
+			<div class="row inner_banner bg-none">
+				<div class="hot-page2-alp-tit">
+					<h1>Travel Packages</h1>
+					<div class="title-line">
+						<div class="tl-1"></div>
+						<div class="tl-2"></div>
+						<div class="tl-3"></div>
+					</div>
+					<p>World's leading Hotel Booking website,Over 30,000 Hotel rooms worldwide. </p>
+					<ul>
+						<li><a href="#inner-page-title">Home</a> </li>
+						<li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+						<li><a href="#inner-page-title" class="bread-acti">All Packages</a> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="hot-page2-alp-con">
+					<!--LEFT LISTINGS-->
+					<div class="col-md-3 hot-page2-alp-con-left">
+						<!--PART 1 : LEFT LISTINGS-->
+						<div class="hot-page2-alp-con-left-1">
+							<h3>Suggesting Packages</h3> </div>
+						<!--PART 2 : LEFT LISTINGS-->
+						<div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb">
+							<ul>
+								<!--LISTINGS-->
+								<li>
+									<a href="tour-details.html">
+										<div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> <img src="images/places/1.jpg" alt=""> </div>
+										<div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2">
+											<h5>Bali, Indonesia</h5> <span>Bali is a living postcard</span> </div>
+										<div class="hot-page2-hom-pre-3 hot-page2-alp-cl-1-3"> <span>5D/4N</span> </div>
+									</a>
+								</li>
+								<!--LISTINGS-->
+								<li>
+									<a href="tour-details.html">
+										<div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> <img src="images/places/2.jpg" alt=""> </div>
+										<div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2">
+											<h5>London, United Kingdom</h5> <span>There's so much to</span> </div>
+										<div class="hot-page2-hom-pre-3 hot-page2-alp-cl-1-3"> <span>10D/9N</span> </div>
+									</a>
+								</li>
+								<!--LISTINGS-->
+								<li>
+									<a href="tour-details.html">
+										<div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> <img src="images/places/3.jpg" alt=""> </div>
+										<div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2">
+											<h5>Paris, France</h5> <span>Everyone who visits</span> </div>
+										<div class="hot-page2-hom-pre-3 hot-page2-alp-cl-1-3"> <span>7D/6N</span> </div>
+									</a>
+								</li>
+								<!--LISTINGS-->
+								<li>
+									<a href="tour-details.html">
+										<div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> <img src="images/places/4.jpg" alt=""> </div>
+										<div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2">
+											<h5>Rome, Italy</h5> <span>It’s nicknamed the Eternal City</span> </div>
+										<div class="hot-page2-hom-pre-3 hot-page2-alp-cl-1-3"> <span>3D/2N</span> </div>
+									</a>
+								</li>
+								<!--LISTINGS-->
+								<li>
+									<a href="tour-details.html">
+										<div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> <img src="images/places/5.jpg" alt=""> </div>
+										<div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2">
+											<h5>New York City, New York</h5> <span>The first time you go</span> </div>
+										<div class="hot-page2-hom-pre-3 hot-page2-alp-cl-1-3"> <span>7D/6N</span> </div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!--PART 7 : LEFT LISTINGS-->
+						<div class="hot-page2-alp-l3 hot-page2-alp-l-com">
+							<h4><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Travel Available Check</h4>
+							<div class="hot-room-ava-check">
+							<form class="package-form">
+							<div>
+								<div class="form-group">
+										<label>Your destination</label>
+										<select class="chosen-select">
+											<option>Your destination</option>
+											<option>Any location</option>
+											<option>Chennai</option>
+											<option>New york</option>
+											<option>Perth</option>
+											<option>London</option>
+										</select>
+									</div>
+								<div class="form-group">
+									<label>Package</label>
+									<select class="chosen-select">
+										<option>Package</option>
+										<option>Family Package</option>
+										<option>Honeymoon Package</option>
+										<option>Group Package</option>
+										<option>WeekEnd Package</option>
+										<option>Regular Package</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label>Min Price</label>
+									<select class="chosen-select">
+										<option value="" disabled selected>Min</option>
+										<option value="1">$200</option>
+										<option value="2">$500</option>
+										<option value="3">$1000</option>
+										<option value="1">$5000</option>
+										<option value="1">$10,000</option>
+										<option value="1">$50,000</option>
+									</select>
+								</div>
+								<div class="form-group col-md-6">
+									<label>Max Price</label>
+									<select class="chosen-select">
+										<option value="" disabled selected>Max</option>
+										<option value="1">$200</option>
+										<option value="2">$500</option>
+										<option value="3">$1000</option>
+										<option value="1">$5000</option>
+										<option value="1">$10,000</option>
+										<option value="1">$50,000</option>
+									</select>
+								</div>								
+							</div>
+							<div class="row">
+								<div class="form-group col-md-6">
+									<label>Check in</label>
+									<input type="text" class="form-control datepicker" name="from" placeholder="Select date">
+								</div>
+								<div class="form-group col-md-6">
+									<label>Check out</label>
+									<input type="text" class="form-control datepicker" name="to" placeholder="Select date">
+								</div>
+							</div>
+						</form>
+							</div>
+						</div>
+						
+						<!--PART 6 : LEFT LISTINGS-->
+						<div class="hot-page2-alp-l3 hot-page2-alp-l-com">
+							<h4><i class="fa fa-heart-o" aria-hidden="true"></i> Travel Amenities</h4>
+							<div class="hot-page2-alp-l-com1 hot-page2-alp-p5">
+								<form>
+									<ul>
+										<li>
+											<div class="chbox">
+												<input id="chp1" type="checkbox" checked="">
+												<label for="chp1"> Swimming pools </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp2" type="checkbox">
+												<label for="chp2"> Wi-Fi & Computer </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp3" type="checkbox">
+												<label for="chp3"> Kitchen facilities </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp4" type="checkbox">
+												<label for="chp4"> Music & GYM </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp5" type="checkbox">
+												<label for="chp5"> Dining </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp6" type="checkbox">
+												<label for="chp6"> Cab </label>
+											</div>
+										</li>
+										<li>
+											<div class="chbox">
+												<input id="chp7" type="checkbox">
+												<label for="chp7"> Breakfast free </label>
+											</div>
+										</li>
+									</ul>
+								</form> </div>
+						</div>
+						<!--END PART 7 : LEFT LISTINGS-->
+						<!--PART 6 : LEFT LISTINGS-->
+						<div class="hot-page2-alp-l3 hot-page2-alp-l-com">
+							<h4><i class="fa fa-heart-o" aria-hidden="true"></i> Send your enquiry</h4>
+							<div class="hot-room-ava-check form-out-box">
+								<form class="contact__form v2-search-form package-form" method="post" action="mail/enquiry.php">
+									<div class="alert alert-success contact__msg" role="alert">
+										Thank you message
+									</div>
+								<div>
+									<div class="form-group">
+										<label for="name">Name:</label>
+										<input type="text" class="form-control" placeholder="Enter name*" name="name" required>
+									</div>
+									<div class="form-group">
+										<label for="email">Email:</label>
+										<input type="email" class="form-control" placeholder="Enter email*" name="email" required>
+									</div>
+									<div class="form-group">
+										<label for="phone">Phone:</label>
+										<input type="number" class="form-control" placeholder="Enter phone*" name="phone" required>
+									</div>
+									<div>
+										<button type="submit" class="btn btn-primary" id="send_button">Submit</button>
+									</div>
+								</div>
+							</form>
+								</div>
+						</div>
+						<!--END PART 7 : LEFT LISTINGS-->
+					</div>
+					<!--END LEFT LISTINGS-->
+					<!--RIGHT LISTINGS-->
+					<div class="col-md-9 hot-page2-alp-con-right">
+						<div class="hot-page2-alp-con-right-1">
+							<!--LISTINGS-->
+							<div class="row">
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.5</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/23.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Swiss, Paris & Italy</h3></a>
+										<p>Home to numerous lakes, villages and high peaks of the Alps, Switzerland is a dreamy mountainous Central European country that lures tourists from all over the world.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$650</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.3</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/10.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Incredible India</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$420</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.0</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/11.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Awesome Dubai: Action Packed</h3></a>
+										<p>Explore Dubai in all its glory with Yatra's 'Go Dubai.' From the air-conditioned interior of a 4X4, see the sands of the Arabian Desert.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$720</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.8</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/4.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Amazing London and Edinburgh</h3></a>
+										<p>London may not be the most ancient city in the world, but is surely one of those that take their history quite seriously; especially in terms of keeping traditions and heritage intact.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$860</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.4</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/24.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Rio De Janeiro</h3></a>
+										<p>Brazil may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$480</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.2</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/25.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Roatan, Bay Islands</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1200</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.9</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/7.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Venice Holiday Packages</h3></a>
+										<p>Honeymoon calls for an utterly romantic and very distinguished place that will, at the same time, provide privacy and convenience, and Venice perfectly fits the bill.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1350</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.5</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/8.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Swiss, Paris & Italy</h3></a>
+										<p>Home to numerous lakes, villages and high peaks of the Alps, Switzerland is a dreamy mountainous Central European country that lures tourists from all over the world.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$650</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.3</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/9.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Incredible India</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$420</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.0</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/10.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Awesome Dubai: Action Packed</h3></a>
+										<p>Explore Dubai in all its glory with Yatra's 'Go Dubai.' From the air-conditioned interior of a 4X4, see the sands of the Arabian Desert.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$720</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.8</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/3.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Amazing London and Edinburgh</h3></a>
+										<p>London may not be the most ancient city in the world, but is surely one of those that take their history quite seriously; especially in terms of keeping traditions and heritage intact.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$860</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.4</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/12.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Rio De Janeiro</h3></a>
+										<p>Brazil may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$480</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.2</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/13.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Roatan, Bay Islands</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1200</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.9</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/14.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Venice Holiday Packages</h3></a>
+										<p>Honeymoon calls for an utterly romantic and very distinguished place that will, at the same time, provide privacy and convenience, and Venice perfectly fits the bill.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1350</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.5</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/15.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Swiss, Paris & Italy</h3></a>
+										<p>Home to numerous lakes, villages and high peaks of the Alps, Switzerland is a dreamy mountainous Central European country that lures tourists from all over the world.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$650</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.3</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/16.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Incredible India</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$420</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.0</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/17.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Awesome Dubai: Action Packed</h3></a>
+										<p>Explore Dubai in all its glory with Yatra's 'Go Dubai.' From the air-conditioned interior of a 4X4, see the sands of the Arabian Desert.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$720</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.8</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/18.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Amazing London and Edinburgh</h3></a>
+										<p>London may not be the most ancient city in the world, but is surely one of those that take their history quite seriously; especially in terms of keeping traditions and heritage intact.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$860</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.4</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/19.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Rio De Janeiro</h3></a>
+										<p>Brazil may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$480</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.2</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/20.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Roatan, Bay Islands</h3></a>
+										<p>India may not be the most ancient city in the world, but is surely one of those that take their history quite seriously.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1200</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+								<!--LISTINGS START-->
+								<div class="hot-page2-alp-r-list">
+									<div class="col-md-3 hot-page2-alp-r-list-re-sp">
+										<a href="tour-details.html">
+											<div class="hotel-list-score">4.9</div>
+											<div class="hot-page2-hli-1"> <img src="images/places/21.jpg" alt=""> </div>
+										</a>
+									</div>
+									<div class="col-md-6">
+										<div class="trav-list-bod">
+										<a href="tour-details.html"><h3>Venice Holiday Packages</h3></a>
+										<p>Honeymoon calls for an utterly romantic and very distinguished place that will, at the same time, provide privacy and convenience, and Venice perfectly fits the bill.</p>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="hot-page2-alp-ri-p3 tour-alp-ri-p3">
+											<div class="hot-page2-alp-r-hot-page-rat">25%Off</div> <span class="hot-list-p3-1">Prices Starting</span> <span class="hot-list-p3-2">$1350</span><span class="hot-list-p3-4">
+												<a href="tour-details.html" class="hot-page2-alp-quot-btn">Book Now</a>
+											</span> </div>
+									</div>
+									<div>
+										<div class="trav-ami">
+											<h4>Detail and Includes</h4>
+											<ul>
+												<li><img src="images/icon/a14.png" alt=""> <span>Sightseeing</span></li>
+												<li><img src="images/icon/a15.png" alt=""> <span>Hotel</span></li>
+												<li><img src="images/icon/a16.png" alt=""> <span>Transfer</span></li>
+												<li><img src="images/icon/a17.png" alt=""> <span>Luggage</span></li>
+												<li><img src="images/icon/a18.png" alt=""> <span>Duration 8N/9D</span></li>
+												<li><img src="images/icon/a19.png" alt=""> <span>Location : Rio,Brazil</span></li>
+												<li><img src="images/icon/dbl4.png" alt=""> <span>Stay Plan</span></li>
+											</ul>
+										</div>	
+									</div>
+								</div>
+								<!--END LISTINGS-->
+							</div>
+						</div>
+					</div>
+					<!--END RIGHT LISTINGS-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== TIPS BEFORE TRAVEL ==========-->
+	<section>
+		<div class="rows tips tips-home tb-space home_title">
+			<div class="container tips_1">
+				<!-- TIPS BEFORE TRAVEL -->
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<h3>Tips Before Travel</h3>
+					<div class="tips_left tips_left_1">
+						<h5>Bring copies of your passport</h5>
+						<p>Aliquam pretium id justo eget tristique. Aenean feugiat vestibulum blandit.</p>
+					</div>
+					<div class="tips_left tips_left_2">
+						<h5>Register with your embassy</h5>
+						<p>Mauris efficitur, ante sit amet rhoncus malesuada, orci justo sollicitudin.</p>
+					</div>
+					<div class="tips_left tips_left_3">
+						<h5>Always have local cash</h5>
+						<p>Donec et placerat ante. Etiam et velit in massa. </p>
+					</div>
+				</div>
+				<!-- CUSTOMER TESTIMONIALS -->
+				<div class="col-md-8 col-sm-6 col-xs-12 testi-2">
+					<!-- TESTIMONIAL TITLE -->
+					<h3>Customer Testimonials</h3>
+					<div class="testi">
+						<h4>John William</h4>
+						<p>Ut sed sem quis magna ultricies lacinia et sed tortor. Ut non tincidunt nisi, non elementum lorem. Aliquam gravida sodales</p> <address>Illinois, United States of America</address> </div>
+					<!-- ARRANGEMENTS & HELPS -->
+					<h3>Arrangement & Helps</h3>
+					<div class="arrange">
+						<ul>
+							<!-- LOCATION MANAGER -->
+							<li>
+								<a href="#"><img src="images/Location-Manager.png" alt=""> </a>
+							</li>
+							<!-- PRIVATE GUIDE -->
+							<li>
+								<a href="#"><img src="images/Private-Guide.png" alt=""> </a>
+							</li>
+							<!-- ARRANGEMENTS -->
+							<li>
+								<a href="#"><img src="images/Arrangements.png" alt=""> </a>
+							</li>
+							<!-- EVENT ACTIVITIES -->
+							<li>
+								<a href="#"><img src="images/Events-Activities.png" alt=""> </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FOOTER 1 ==========-->
+	<section>
+		<div class="rows">
+			<div class="footer1 home_title tb-space">
+				<div class="pla1 container">
+					<!-- FOOTER OFFER 1 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="disco">
+							<h3>30%<span>OFF</span></h3>
+							<h4>Eiffel Tower,Rome</h4>
+							<p>valid only for 24th Dec</p> <a href="booking.html">Book Now</a> </div>
+					</div>
+					<!-- FOOTER OFFER 2 -->
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="disco1 disco">
+							<h3>42%<span>OFF</span></h3>
+							<h4>Colosseum,Burj Al Arab</h4>
+							<p>valid only for 18th Nov</p> <a href="booking.html">Book Now</a> </div>
+					</div>
+					<!-- FOOTER MOST POPULAR VACATIONS -->
+					<div class="col-md-6 col-sm-12 col-xs-12 foot-spec footer_places">
+						<h4><span>Most Popular</span> Vacations</h4>
+						<ul>
+							<li><a href="tour-details.html">Angkor Wat</a> </li>
+							<li><a href="tour-details.html">Buckingham Palace</a> </li>
+							<li><a href="tour-details.html">High Line</a> </li>
+							<li><a href="tour-details.html">Sagrada Família</a> </li>
+							<li><a href="tour-details.html">Statue of Liberty </a> </li>
+							<li><a href="tour-details.html">Notre Dame de Paris</a> </li>
+							<li><a href="tour-details.html">Taj Mahal</a> </li>
+							<li><a href="tour-details.html">The Louvre</a> </li>
+							<li><a href="tour-details.html">Tate Modern, London</a> </li>
+							<li><a href="tour-details.html">Gothic Quarter</a> </li>
+							<li><a href="tour-details.html">Table Mountain</a> </li>
+							<li><a href="tour-details.html">Bayon</a> </li>
+							<li><a href="tour-details.html">Great Wall of China</a> </li>
+							<li><a href="tour-details.html">Hermitage Museum</a> </li>
+							<li><a href="tour-details.html">Yellowstone</a> </li>
+							<li><a href="tour-details.html">Musée d'Orsay</a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FOOTER 2 ==========-->
+	<section>
+		<div class="rows">
+			<div class="footer">
+				<div class="container">
+					<div class="foot-sec2">
+						<div>
+							<div class="row">
+								<div class="col-sm-3 foot-spec foot-com">
+									<h4><span>Holiday</span> Tour & Travels</h4>
+									<p>World's leading tour and travels Booking website,Over 30,000 packages worldwide.</p>
+								</div>
+								<div class="col-sm-3 foot-spec foot-com">
+									<h4><span>Address</span> & Contact Info</h4>
+									<p>28800 Orchard Lake Road, Suite 180 Farmington Hills, U.S.A. Landmark : Next To Airport</p>
+									<p> <span class="strong">Phone: </span> <span class="highlighted">+101-1231-1231</span> </p>
+								</div>
+								<div class="col-sm-3 col-md-3 foot-spec foot-com">
+									<h4><span>SUPPORT</span> & HELP</h4>
+									<ul class="two-columns">
+										<li> <a href="#">About Us</a> </li>
+										<li> <a href="#">FAQ</a> </li>
+										<li> <a href="#">Feedbacks</a> </li>
+										<li> <a href="#">Blog </a> </li>
+										<li> <a href="#">Use Cases</a> </li>
+										<li> <a href="#">Advertise us</a> </li>
+										<li> <a href="#">Discount</a> </li>
+										<li> <a href="#">Vacations</a> </li>
+										<li> <a href="#">Branding Offers </a> </li>
+										<li> <a href="#">Contact Us</a> </li>
+									</ul>
+								</div>
+								<div class="col-sm-3 foot-social foot-spec foot-com">
+									<h4><span>Follow</span> with us</h4>
+									<p>Join the thousands of other There are many variations of passages of Lorem Ipsum available</p>
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+										<li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--====== FOOTER - COPYRIGHT ==========-->
+	<section>
+		<div class="rows copy">
+			<div class="container">
+				<p>Copyrights © 2025 Company Name. All Rights Reserved</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="icon-float">
+			<ul>
+				<li><a href="#" class="sh">1k <br> Share</a> </li>
+				<li><a href="#" class="fb1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="gp1"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="tw1"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="li1"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="wa1"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li>
+				<li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+			</ul>
+		</div>
+	</section>
+	<!--========= Scripts ===========-->
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/select-opt.js"></script>
+    <script src="js/slick.js"></script>
+	<script src="js/mail.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
 </html>
