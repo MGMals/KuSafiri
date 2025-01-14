@@ -1,0 +1,800 @@
+@media only screen and (min-width: 1600px) {
+    .slide-thumb.shape-1:before {
+        height: 214px;
+        background-size: cover;
+    }
+    .slide-content {
+        top: 50%;
+    }
+    footer.footer-area.style-3:after, .copy-right-area.style-2:after {
+        display: none;
+    }
+    .login-cart ul li.cart-mega {
+        padding-right: 40px;
+    }
+    footer.footer-area.style-3 .widget {
+        margin-bottom: 130px;
+    }
+    .about-adventure-area:after {
+        opacity: 1;
+    }
+    .about-bg {
+        top: -75px;
+    }
+}
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 1600px) and (max-width: 1680px){
+    
+}
+@media only screen and (min-width: 1440px) and (max-width: 1599px){
+    
+}
+/*my laptop*/
+@media only screen and (min-width: 1366px) and (max-width: 1439px){
+    
+}
+@media only screen and (min-width: 1201px) and (max-width: 1599px){
+    .single-slide-content h1 {
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .single-slide-content h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .slide-thumb {
+        height: 800px;
+    }
+    .slide-thumb img {
+        height: 100%;
+    }
+    .slide-thumb.shape-2:before {
+        height: 245px;
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1365px){
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    header.header-area.style-2.sticky .navigation-area {
+        border: none;
+    }
+    .gene-nav ul.menu > li > a {
+        padding: 5px 10px 39px 15px;
+    }
+    .gene-nav .menu li.has-dropdown > a::after {
+        margin-top: -33px;
+        right: -2px;
+    }
+    .login-cart ul li.cart-mega {
+        padding-right: 0;
+    }
+    .slide-thumb.shape-3:before {
+        bottom: -46px;
+    }
+    .slide-content {
+        top: 65%;
+    }
+    .single-slide-content h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .single-slide-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single-quick-icon, .single-quick-icon.style-2 {
+        width: 100%;
+    }
+    .widget.contact-widget ul li a {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .slide-thumb.shape-2:before{
+        display: none;
+    }
+    .about-single-expart {
+        padding-left: 100px;
+    }
+    .about-ex-thumb {
+        padding-left: 20px;
+        margin-right: 9px;
+    }
+    .about-fre-bottom h3 {
+        font-size: 30px;
+    }
+    .single-adventure.style-2 {
+        display: inherit;
+    }
+    .single-adventure.style-2 .adventure-content {
+        width: 100%;
+    }
+    .user-comments-wrap .user-thumb {
+        width: 42%;
+    }
+    .login-form ul a {
+        padding: 0 7px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .order-one{ order: 1;}
+    .order-two{ order: 2;}
+    .order-three{ order: 3;}
+    .header-top-left, .header-top-contact {
+        padding: 15px 0 10px;
+    }
+    header.header-area.style-2 .navigation-area,
+    header.header-area.style-2.header-border.sticky .navigation-area {
+        border: none;
+    }
+    .login-cart {
+        text-align: center;
+    }
+    .login-cart ul li {
+        margin-right: 10px;
+    }
+    .login-cart ul li.cart-mega {
+        padding-right: 0;
+        float: none;
+    }
+    .navigation-bg {
+        background-color: rgba(0, 0, 0, 0.70);
+    }
+    /*Slider*/
+    .slide-thumb:before {
+        bottom: -20px;
+    }
+    .slide-thumb.shape-3:before {
+        bottom: -50px;
+    }
+    .slide-content {
+        top: 70%;
+    }
+    .single-slide-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .content-text h1 span, .single-slide-content h2 span {
+        display: inline;
+    }
+    .single-slide-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .find-adventure-form input.btn.btn-theme {
+        width: 33%;
+    }
+    .find-adventure-form input[type="date"], .slide-thumb.shape-2:before, .dn-small {
+        display: none;
+    }
+
+    .find-adventure-form select, .find-adventure-form input[type="date"] {
+        width: 33%;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .pb-res {
+        padding-bottom: 0;
+    }
+    .single-guide:hover .guide-content {
+        height: 100%;
+    }
+    .single-guide .guide-content p.title {
+        font-size: 13px;
+        padding: 15px 15px 0px;
+    }
+    .single-guide .guide-content a h4 {
+        font-size: 20px;
+        padding: 0px 20px 0px;
+    }
+    .about-guide p {
+        line-height: 20px;
+    }
+    footer.footer-area:before {
+        background-size: cover;
+    }
+    .copy-payment ul li a {
+        display: block;
+        margin-right: 15px;
+    }
+    .about-bg.style-2 {
+        opacity: 0.4;
+        top: 0;
+    }
+    .single-quick-icon {
+        width: 100%;
+    }
+    .single-adventure.style-2 {
+        display: inherit;
+    }
+    .single-adventure.style-2 .adventure-content {
+        width: 100%;
+    }
+    .popular-post-thumb {
+        width: 15%;
+    }
+    .post-meta span {
+        margin-right: 20px;
+    }
+    .post-meta span:before {
+        right: -14px;
+    }
+    .user-comments-wrap .user-thumb {
+        width: 45%;
+    }
+    .table-btn input.code-input.single-input {
+        width: 140px;
+    }
+    .form-right button.btn.btn-theme-dark {
+        margin-bottom: 15px;
+    }
+    .login-form ul li {
+        display: block;
+        margin-bottom: 6px;
+    }
+    .section-title span {
+        display: inline;
+    }
+    .subscribe-area.style-3.pt-120.pb-315 {
+        padding: 0 0 40px 0;
+    }
+    .adventure-select form.adventure-select-form select {
+        width: 38%;
+    }
+    .adventure-select form.adventure-select-form input[type="date"] {
+        width: 38%;
+    }
+    .view-grid {
+        width: 20%;
+    }
+    .bradcumb-area {
+        height: 450px;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 864px){
+    
+}
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+   
+    /*Header*/
+    .order-one{ order: 1;}
+    .order-two{ order: 2;}
+    .order-three{ order: 3;}
+    .header-top-left, .header-top-contact, .find-adventure-form select, .find-adventure-form input[type="date"],
+    .find-adventure-form input.btn.btn-theme, .dn-small {
+        display: none;
+    }
+    header.header-area.style-2 .navigation-area,
+    header.header-area.style-2.header-border.sticky .navigation-area {
+        border: none;
+    }
+    .slide-thumb.shape-2:before {
+        height: 150px;
+        bottom: 0;
+    }
+    .single-slide-content h1 {
+        font-size: 42px;
+        line-height: 56px;
+    }
+    .single-slide-content h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .content-text h1 span, .single-slide-content h2 span, .section-title h2 span {
+        display: inline-block;
+    }
+    .slide-thumb:before {
+        bottom: -29px;
+    }
+    .about-bg, .subscribe-area:before {
+        width: 100%;
+        opacity: 0.2;
+    }
+    .single-guide:hover .guide-content {
+        height: 325px;
+    }
+    footer.footer-area:before {
+        top: -65px;
+        background-repeat: no-repeat;
+    }
+    .subscribe-area.style-3.pt-120.pb-315 {
+        padding: 0 0 40px 0;
+    }
+    .adventure-select form.adventure-select-form select {
+        width: 38%;
+    }
+    .adventure-select form.adventure-select-form input[type="date"] {
+        width: 38%;
+    }
+    .view-grid {
+        width: 20%;
+    }
+    .bradcumb-area {
+        height: 450px;
+    }
+    .popular-post-thumb {
+        width: 20%;
+    }
+
+
+
+
+  
+}
+
+@media only screen and (max-width: 684px) {
+    
+    header.header-area.style-2 .navigation-area,
+    header.header-area.style-2.header-border.sticky .navigation-area {
+        border: none;
+    }
+    .single-slide-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .single-slide-content h2 {
+        font-size: 32px;
+    }
+    .subscribe-area.style-3.pt-120.pb-315 {
+        padding: 0 0 40px 0;
+    }
+    .bradcumb-area {
+        height: 400px;
+    }
+
+
+
+
+  
+}
+
+@media (max-width: 667px){
+    
+    
+}
+/* medium tablet layout 425px */
+
+@media only screen and (max-width: 599px) {
+    
+   .order-one{ order: 1;}
+   .order-two{ order: 2;}
+   .site-logo {
+       padding: 25px 0px 35px;
+   }
+   .login-cart ul li.cart-mega {
+       padding-right: 0;
+   }
+   header.header-area.absulate-header {
+       position: relative;
+   }
+   .header-top-left, .find-adventure-form, .selling-tips-wrap .owl-nav button,
+   .dn-small, .adventure-select form.adventure-select-form input[type="date"],
+   .post-meta span:before  {
+       display: none;
+   }
+   .header-top-contact ul li:before {
+       color: #282828;
+   }
+   .header-top-contact ul li a {
+       font-size: 12px;
+       color: #282828;
+       margin-right: 15px;
+   }
+   .header-top-contact, .copyright-text p, .right-cart-btn {
+       float: left;
+       padding: 0;
+   }
+   .header-top-contact ul li:before {
+       right: 2px;
+   }
+   .login-cart {
+       padding: 49px 0;
+   }
+   .navigation-area {
+       background-color: #000000;
+   }
+   .navigation-bg {
+       background-color: transparent;
+   }
+   .slide-thumb {
+       height: 250px;
+   }
+   .slide-thumb img {
+       height: 250px;
+   }
+   .slide-thumb.shape-2:before {
+       height: auto;
+   }
+   .slide-thumb:before {
+       bottom: -3px;
+       background-size: cover;
+   }
+   .slide-content {
+       top: 50%;
+   }
+   .single-slide-content h1 {
+       font-size: 26px;
+       line-height: 30px;
+   }
+   .single-slide-content h2 {
+       color: #ffffff;
+       line-height: 24px;
+       font-size: 20px;
+   }
+   .single-quick-icon, .single-quick-icon.style-2 {
+       width: 100%;
+   }
+   .about-bg {
+       width: 100%;
+       position: static;
+       opacity: 1;
+       margin-bottom: 30px;
+   }
+   .section-title h2 {
+       font-size: 32px;
+   }
+   .subscribe-area form.subscribe-form input {
+       width: calc(100% - 115px);
+   }
+   .subscribe-area form.subscribe-form button {
+       width: 115px;
+   }
+   .pb0-320{
+    padding-bottom: 0;
+   }
+   footer.footer-area:before {
+       background-size: cover;
+   }
+   .copy-payment {
+       margin-bottom: 30px;
+   }
+   .single-guide:hover .guide-content {
+       height: 70%;
+   }
+   .single-partner {
+       width: 145px;
+       height: 145px;
+   }
+   .funfact-area.style-2 {
+       padding-top: 220px;
+   }
+   .about-bg.style-2 {
+       opacity: .4;
+   }
+   .bradcumb-area {
+       height: 315px;
+   }
+   .bradcumb {
+       top: 47%;
+   }
+   .about-camping-arrea {
+       background-image: inherit;
+   }
+   .about-fre-bottom h3 {
+       font-size: 24px;
+   }
+   .about-fre-bottom h2 {
+       font-size: 42px;
+   }
+   .about-single-expart {
+       padding-left: 110px;
+   }
+   .about-ex-thumb {
+       padding-left: 30px;
+   }
+   .adventure-select form.adventure-select-form select, .view-grid {
+       width: 45%;
+   }
+   .single-adventure.style-2, form.user-reply {
+       display: inherit;
+   }
+   .single-adventure.style-2 .adventure-content, .form-left, .form-right, .left-reply, form.user-reply .right-rply {
+       width: 100%;
+   }
+   .post-meta span {
+       margin-right: 14px;
+   }
+   .single-blog-post.style-2 .post-thumbnail {
+       width: 100%;
+       margin-bottom: 20px;
+   }
+   .single-blog-post.style-2 .single-post-content-thumb {
+       width: 100%;
+       padding: 0 20px 20px 26px;
+   }
+   .popular-post-thumb {
+       width: 30%;
+   }
+   .blog-grid-top-bar .blog-grid-tow {
+       width: 60%;
+   }
+   .single-post-content-thumb {
+       padding: 0 15px;
+   }
+   .next-prev-post-wrap .post-np {
+       width: 48%;
+   }
+   .user-comments-wrap, .gane-form.billing-form form.contact-us-form {
+       display: inherit;
+   }
+   .user-comments-wrap .user-thumb {
+       margin-bottom: 10px;
+   }
+   p.price {
+       width: 130px;
+       text-align: center;
+   }
+   .product-cart-tbl-content h6 {
+       width: 170px;
+   }
+   .gane-form.billing-form .single-field.half-field, .gane-form.billing-form .single-field.half-field-last,
+   .gane-form.billing-form .single-field.one-third {
+       float: none;
+       width: 100%;
+       padding: 0 30px;
+   }
+   .section-title span {
+       display: inline-block;
+   }
+   .form-right button.btn.btn-theme-dark {
+       float: none;
+       margin-bottom: 30px;
+       margin-left: 20px;
+   }
+   .google-map-wrap {
+       position: static;
+       width: 100%;
+       margin-bottom: 30px;
+   }
+   .login-form ul li {
+       display: block;
+       margin-bottom: 10px;
+   }
+   .content-text h1 span, .single-slide-content h2 span {
+       display: inline;
+   }
+   .subscribe-area.style-3.pt-120.pb-315 {
+       padding: 0 0 40px 0;
+   }
+   a.btn.btn-theme.float-right {
+    float: left;
+   }
+
+}
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+    header.header-area.absulate-header {
+        position: relative;
+        background-color: #000000;
+    }
+    .slide-content {
+        top: 50%;
+    }
+    .slide-thumb:before {
+        bottom: -60px;
+    }
+    .slide-thumb.shape-2:before {
+        height: 70px;
+    }
+    .single-slide-content h1 {
+        font-size: 31px;
+        line-height: 34px;
+    }
+    .single-slide-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .single-quick-icon, .single-quick-icon.style-2 {
+        width: 100%;
+    }
+    .subscribe-area form.subscribe-form input {
+        width: calc(100% - 160px);
+    }
+    .subscribe-area form.subscribe-form button {
+        width: 160px;
+    }
+    footer.footer-area:before {
+        top: -30px;
+    }
+    .funfact-area.style-2.pt-170 {
+        padding-top: 220px;
+    }
+    .subscribe-area.style-3.pt-120.pb-315 {
+        padding: 0 0 40px 0;
+    }
+    .bradcumb-area {
+        height: 350px;
+    }
+    .bradcumb {
+        top: 50%;
+    }
+    .adventure-select form.adventure-select-form select {
+        margin-right: 10px;
+        width: 40%;
+    }
+    .adventure-select form.adventure-select-form input[type="date"], .view-grid {
+        width: 40%;
+    }
+    .dn-small {
+        display: none;
+    }
+    .single-adventure.style-2, .gane-form.billing-form form.contact-us-form {
+        display: inherit;
+    }
+    .single-adventure.style-2 .adventure-content, .form-left, .form-right {
+        width: 100%;
+    }
+    .gane-form.billing-form .single-field.one-third {
+        width: 49%;
+    }
+    .form-right button.btn.btn-theme-dark, .password p:last-child {
+        float: left;
+    }
+    .login-form .form-left .single-field.half-field {
+        width: 99%;
+    }
+    .post-meta span {
+        margin-right: 27px;
+    }
+    .popular-post-thumb {
+        width: 30%;
+    }
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+    .order-one{ order: 1;}
+    .order-two{ order: 2;}
+    .single-adventure.style-2 .adv-thumb-item ul li {
+        margin-bottom: 15px;
+    }
+    .popular-post-thumb {
+        width: 30%;
+    }
+    header.header-area.absulate-header {
+        position: relative;
+        background-color: #000000;
+    }
+    .site-logo {
+        padding: 0;
+        margin-top: 26px;
+    }
+    header.header-area.style-2 .site-logo {
+        padding: 20px 0;
+        margin: 0;
+    }
+    header.header-area.style-2 .navigation-area, 
+    header.header-area.style-2.header-border.sticky .navigation-area {
+        border: none;
+    }
+    .single-slide-content h1 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .single-slide-content h2 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .content-text h1 span, .single-slide-content h2 span {
+        display: inline-block;
+    }
+    .find-adventure-form input.btn.btn-theme, .dn-small {
+        display: none;
+    }
+    .slide-thumb.shape-1:before {
+        height: 214px;
+        background-size: contain;
+        top: 150px;
+    }
+    .slide-thumb.shape-2:before {
+        height: 65px;
+        bottom: 0;
+    }
+    .single-quick-icon, .single-quick-icon.style-2 {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+    .section-title h2 span {
+        display: inline-block;
+    }
+    .about-bg {
+        width: 100%;
+    }
+    .subscribe-area:before {
+        opacity: .3;
+    }
+    .subscribe-area form.subscribe-form input {
+        width: calc(100% - 130px);
+    }
+    .subscribe-area form.subscribe-form button {
+        width: 130px;
+    }
+    .single-guide:hover .guide-content {
+        height: 270px;
+    }
+    footer.footer-area:before {
+        top: 0;
+        background-repeat: no-repeat;
+    }
+    .funfact-area.style-2.pt-170 {
+        padding-top: 210px;
+    }
+    .subscribe-area.style-3.pt-120.pb-315 {
+        padding: 0 0 40px 0;
+    }
+    .bradcumb-area {
+        height: 350px;
+    }
+    .bradcumb {
+        top: 50%;
+    }
+    .adventure-select form.adventure-select-form select {
+        margin-right: 10px;
+        width: 40%;
+    }
+    .adventure-select form.adventure-select-form input[type="date"], .view-grid {
+        width: 40%;
+    }
+    .single-adventure.style-2, .gane-form.billing-form form.contact-us-form {
+        display: inherit;
+    }
+    .single-adventure.style-2 .adventure-content, .form-left, .form-right {
+        width: 100%;
+    }
+    .payment-method-contnt a {
+        margin-right: 10px;
+    }
+    .gane-form.billing-form .single-field.one-third {
+        width: 49%;
+    }
+    .form-right button.btn.btn-theme-dark, .password p:last-child {
+        float: left;
+    }
+    .login-form .form-left .single-field.half-field {
+        width: 99%;
+    }
+    .post-meta span {
+        margin-right: 27px;
+    }
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+
+    
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+   .single-adventure.style-2 .adv-thumb-item ul li {
+       margin-bottom: 15px;
+   }
+   .subscribe-area.style-3.pt-120.pb-315 {
+       padding: 0 0 40px 0;
+   }
+}
