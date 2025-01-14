@@ -1667,7 +1667,7 @@ footer.footer-area .widget p {
 .bradcumb {
     position: absolute;
     width: 100%;
-    top: 60%;
+    top: 50%;
     transform: translateY(-50%) translateX(-50%);
     left: 50%;
 }
