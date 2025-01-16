@@ -1481,7 +1481,6 @@ footer.footer-area:before {
     content: "";
     width: 100%;
     height: 193px;
-    background-image: url(../img/bg/footer-shap-1.jpg);
     top: -186px;
     left: 0;
     z-index: 1;
