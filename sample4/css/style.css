@@ -27,7 +27,7 @@ Version: 1.0.0
 .overlay-bg-4::before{
     content: "";
     display: block;
-    height: 50%;
+    height: 70%;
     left: 0;
     position: absolute;
     top: 0;
@@ -924,6 +924,9 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     border-top-left-radius: 10px;
     width: 100%;
 }
+.kenyadescHome-content {
+    margin-bottom: 25px;
+}
 .adventure-content {
     padding: 0 20px;
     margin-bottom: 25px;
@@ -1648,7 +1651,7 @@ footer.footer-area .widget p {
     background-image: url(../img/bg/banner-shap.png);
     position: absolute;
     z-index: 1;
-    height: 30px;
+    height: 60px;
     background-repeat: no-repeat;
 }
 .bradcumb-area.style-1 {
