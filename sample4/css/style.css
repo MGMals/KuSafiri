@@ -14,7 +14,7 @@ Version: 1.0.0
      position: relative;
      z-index: 1;
 }
- .overlay-bg::before, .overlay-bg-2::before, .overlay-bg-3::after, .overlay-bg-4::before, .overlay-bg-5::before{
+ .overlay-bg::before, .overlay-bg-2::before, .overlay-bg-3::after, .overlay-bg-5::before{
      content: "";
      display: block;
      height: 30%;
@@ -23,6 +23,16 @@ Version: 1.0.0
      top: 0;
      width: 100%;
      z-index: -1;
+}
+.overlay-bg-4::before{
+    content: "";
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
  .overlay-bg::before{
      background-color: rgba(0, 0, 0, 0.2);
@@ -1627,7 +1637,7 @@ footer.footer-area .widget p {
 .bradcumb-area {
     background-size: cover;
     background-position: center center;
-    height: 310px;
+    height: 200px;
     position: relative;
 }
 .bradcumb-area:after {
@@ -1638,7 +1648,7 @@ footer.footer-area .widget p {
     background-image: url(../img/bg/banner-shap.png);
     position: absolute;
     z-index: 1;
-    height: 34px;
+    height: 30px;
     background-repeat: no-repeat;
 }
 .bradcumb-area.style-1 {
