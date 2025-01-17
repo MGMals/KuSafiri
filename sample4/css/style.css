@@ -17,7 +17,7 @@ Version: 1.0.0
  .overlay-bg::before, .overlay-bg-2::before, .overlay-bg-3::after, .overlay-bg-4::before, .overlay-bg-5::before{
      content: "";
      display: block;
-     height: 50%;
+     height: 30%;
      left: 0;
      position: absolute;
      top: 0;
@@ -1638,7 +1638,7 @@ footer.footer-area .widget p {
     background-image: url(../img/bg/banner-shap.png);
     position: absolute;
     z-index: 1;
-    height: 134px;
+    height: 34px;
     background-repeat: no-repeat;
 }
 .bradcumb-area.style-1 {
@@ -1653,12 +1653,6 @@ footer.footer-area .widget p {
 }
 .bradcumb-area.adventure-3 {
     background-image: url(../img/bg/adventure-3.jpg);
-}
-.bradcumb-area.adventure-d-1 {
-    background-image: url(../img/bg/adventure-d-1.jpg);
-}
-.bradcumb-area.blog-1 {
-    background-image: url(../img/bg/blog-1.jpg);
 }
 .bradcumb-area.cart {
     background-image: url(../img/bg/cart.jpg);
