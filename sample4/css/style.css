@@ -1178,10 +1178,9 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     position: absolute;
     width: 100%;
     height: 112px;
-    bottom: -5px;
+    bottom: -35px;
     content: "";
     left: 0;
-    background-image: url(../img/bg/subcribe-shap.png);
 }
 .subscribe-area.style-2:before, .subscribe-area.style-2:after  {
     display: none;
@@ -1474,6 +1473,7 @@ header.header-area.style-2.sticky .gene-nav ul.menu {
     opacity: 0;
   }
 /*=== Footer ===*/
+/*=== Footer ===*/
 footer.footer-area {
     background-image: url(../img/bg/footer.jpg);
     background-size: cover;
@@ -1494,6 +1494,7 @@ footer.footer-area:before {
     content: "";
     width: 100%;
     height: 193px;
+    background-image: url(../img/bg/footer-shap-1.jpg);
     top: -186px;
     left: 0;
     z-index: 1;
@@ -1651,7 +1652,7 @@ footer.footer-area .widget p {
     background-image: url(../img/bg/banner-shap.png);
     position: absolute;
     z-index: 1;
-    height: 60px;
+    height: 100px;
     background-repeat: no-repeat;
 }
 .bradcumb-area.style-1 {
